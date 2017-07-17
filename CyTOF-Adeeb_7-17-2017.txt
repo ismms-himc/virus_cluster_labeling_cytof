@@ -64,5 +64,6 @@ Notes
 
   I'll need to combine the data into the summary over all patient clusters.
 
+  The two summary.png files for the different datasets labeled (MetaHybridLouvain) and unlabelled (meta_clustering) are of differnt size. I copied the CSVs and summary PNGs from the original directory to new lableled and unlabeled directories. The labeled dataset has ~80 clusters while the unlabeled dataset has ~149 clusters.
 
-  The two summary.png files for the different datasets labeled (MetaHybridLouvain) and unlabelled (meta_clustering) are of differnt size. I copied the CSVs and summary PNGs from the original directory to new lableled and unlabeled directories. The labeled dataset
+  I'll need to load the datasets, combine them into labeled_summary and unlabeled_summary dataframes and then calculate the distance between the datasets.
