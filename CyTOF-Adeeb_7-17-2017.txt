@@ -54,12 +54,15 @@ Notes
 
   Here’s the correctly annotated dataset:
 
-    MetaHybridLouvain
+    MetaHybridLouvain (8MB)
     https://www.dropbox.com/sh/jv7f8aaxt12sh55/AADfGUlRaESQWAwai-jHVxjMa?dl=0
 
   Here’s the one that needs to be relabeled:
 
-    meta_clustering
+    meta_clustering (250MB)
     https://www.dropbox.com/sh/vmhkrqbjgxgap3g/AABMqS0ACSIUJBOlM0Fzf2sIa?dl=0
 
   I'll need to combine the data into the summary over all patient clusters.
+
+
+  The two summary.png files for the different datasets labeled (MetaHybridLouvain) and unlabelled (meta_clustering) are of differnt size. I copied the CSVs and summary PNGs from the original directory to new lableled and unlabeled directories. The labeled dataset
