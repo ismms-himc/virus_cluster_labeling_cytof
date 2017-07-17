@@ -1,0 +1,65 @@
+Analysis Task
+  50 patient, each sample run indiv
+  Cluster using Lovain and phenograph, use t-SNE
+  phenograph
+    1. cluster id is arbitrary per sample, random,
+    comparison cluster across samples
+
+    purely nubiased, resolution of clusteirng not good, dominated by markers with dyn separation.
+
+    Two mods
+      limited cluster res
+      hybrid lovain, nod label
+
+      manual annotation of dataset, trained classifier.
+      Hybrid-lovain
+
+    Missing clusters in different patients.
+
+
+  naming: crude-classifier_specific cluster
+
+  take meta-labels apply to single sample
+
+  consistency across patients
+
+Downsides
+  sprse cluster
+  apply names (should be automated)
+
+  Mostly surface markers (zika virus)
+
+  100s of patients infected with viruses.
+
+  Hoping to compare these?
+
+  Summar heatmap - correlate to check which clusters correspond to old datase.
+
+  Panels are ~90 same
+
+  Compare overlapping markers
+
+Would like to make a Data dictionary
+-------------------------------------
+
+Final step matrix relabeling
+
+  create a new naming structure (another labeling CSV)
+
+  Labeled and un-labeled datasets.
+
+
+Notes
+*****
+
+  Here’s the correctly annotated dataset:
+
+    MetaHybridLouvain
+    https://www.dropbox.com/sh/jv7f8aaxt12sh55/AADfGUlRaESQWAwai-jHVxjMa?dl=0
+
+  Here’s the one that needs to be relabeled:
+
+    meta_clustering
+    https://www.dropbox.com/sh/vmhkrqbjgxgap3g/AABMqS0ACSIUJBOlM0Fzf2sIa?dl=0
+
+  I'll need to combine the data into the summary over all patient clusters.
