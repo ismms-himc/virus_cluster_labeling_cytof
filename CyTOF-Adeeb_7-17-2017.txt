@@ -49,8 +49,8 @@ Final step matrix relabeling
   Labeled and un-labeled datasets.
 
 
-Notes
-*****
+Notes 7-17-2017
+****************
 
   Here’s the correctly annotated dataset:
 
@@ -67,3 +67,15 @@ Notes
   The two summary.png files for the different datasets labeled (MetaHybridLouvain) and unlabelled (meta_clustering) are of differnt size. I copied the CSVs and summary PNGs from the original directory to new lableled and unlabeled directories. The labeled dataset has ~80 clusters while the unlabeled dataset has ~149 clusters.
 
   I'll need to load the datasets, combine them into labeled_summary and unlabeled_summary dataframes and then calculate the distance between the datasets.
+
+
+Updated Plan: Z-score before correlation and Stack Chik/Zika
+*************************************************************
+  7-18-2017
+
+  I'll rename
+
+    labeled -> Chik
+    unlabeled -> Zika
+
+  I'll also perform column Z-scoring before calculating the correlations. After calculating the predicted group (maximum Spearman correlation) I'll stack the Zika (predicted) and Chik (labeled) datasets together combine into one heatmap.
